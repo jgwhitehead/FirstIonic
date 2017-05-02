@@ -10,6 +10,7 @@
 <ion-content>
   <ion-item>
       <ion-label fixed>Food</ion-label>
-      <ion-input type="text" value=""></ion-input>
+      <ion-input type="text" value="" [(ngModel)]="foodValue" ></ion-input>
     </ion-item>
+    <ion-label fixed>{{foodValue}}</ion-label>
 </ion-content>
