@@ -8,9 +8,24 @@
 </ion-header>
 
 <ion-content>
-  <ion-item>
-      <ion-label fixed>Food</ion-label>
-      <ion-input type="text" value="" [(ngModel)]="foodValue" ></ion-input>
-    </ion-item>
-    <ion-label fixed>{{foodValue}}</ion-label>
+  <ion-grid>
+    <ion-row>
+      <ion-item>
+        <ion-label fixed>Food</ion-label>
+        <ion-input type="text" value="" [(ngModel)]="foodValue" (ngModelChange)="resetCheck()" placeholder="Enter a food to check" ></ion-input>
+      </ion-item>
+    </ion-row>
+    <button ion-button full (click)="checkBadFodmap(foodValue)">Check</button>
+
+    <ion-row *ngIf="showResult">
+      <ion-col col-12>
+        <ion-icon *ngIf="isBadFodmap(foodValue); else elseBlock" name="checkmark-circle" class="tick"></ion-icon>
+      </ion-col >
+      <ion-col col-12>
+        <ng-template #elseBlock><ion-icon name="close-circle" class="cross" ng-></ion-icon></ng-template>
+      </ion-col>
+
+    </ion-row>
+  </ion-grid>
+
 </ion-content>
