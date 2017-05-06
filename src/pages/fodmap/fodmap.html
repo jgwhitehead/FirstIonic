@@ -19,7 +19,7 @@
 
     <ion-row *ngIf="showResult">
       <ion-col col-12>
-        <ion-icon *ngIf="isBadFodmap(foodValue); else elseBlock" name="checkmark-circle" class="tick"></ion-icon>
+        <ion-icon *ngIf="checkedResult; else elseBlock" name="checkmark-circle" class="tick"></ion-icon>
       </ion-col >
       <ion-col col-12>
         <ng-template #elseBlock><ion-icon name="close-circle" class="cross" ng-></ion-icon></ng-template>

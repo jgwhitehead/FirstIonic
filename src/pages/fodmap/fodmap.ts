@@ -110,8 +110,10 @@ export class FodmapPage {
   // }
 }
 checkBadFodmap(food){
-  this.checkedResult =  this.badfodMap.indexOf(food)!==-1;
-  this.showResult=true;
+  // this.checkedResult =  this.badfodMap.indexOf(food)!==-1;
+  var index = this.badfodMap.findIndex(item => food.toLowerCase() === item.toLowerCase());
+    this.checkedResult = (index  === -1);
+    this.showResult=true;
 }
 isBadFodmap(food){
   return this.badfodMap.indexOf(food)!==-1;
