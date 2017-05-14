@@ -3,21 +3,21 @@ Bean sprouts
 Broccoli
 Cabbage, common and red
 Carrots
-Celery (less than 5cm stalk)
-Chick peas (1/4 cup max)
-Corn (1/2 cob max)
+Celery //(less than 5cm stalk)
+Chick peas //(1/4 cup max)
+Corn //(1/2 cob max)
 Courgette
 Cucumber
 Eggplant
 Green beans
 Green pepper
 Kale
-Lettuce e.g. Butter, iceberg, rocket
+Lettuce
 Parsnip
 Potato
 Pumpkin
 Red peppers
-Scallions / spring onions (green part)
+//Scallions / spring onions (green part)
 Squash
 Sweet potato
 Tomatoes
@@ -28,7 +28,7 @@ Cantaloupe
 Cranberry
 Clementine
 Graps
-Melons e.g. Honeydew, galia
+Melons
 Kiwifruit
 Lemon
 Orange
@@ -38,23 +38,24 @@ Rhubarb
 Strawberry
 Oats
 Quinoa
-Gluten free foods e.g. breads, pasta
+Gluten free foods
 Savory biscuits
 Buckwheat
-Chips / crisps (plain)
+Chips
+crisps
 Cornflour
-Oatmeal (1/2 cup max)
+Oatmeal // (1/2 cup max)
 Popcorn
 Pretzels
-Rice e.g. Basmata, brown, white
+Rice
 Tortilla chips
-Almonds (max of 15)
+Almonds //(max of 15)
 Chestnuts
 Chia seeds
 Hazelnuts
 Macademia nuts
 Peanuts
-Pecans (max of 15)
+Pecans //(max of 15)
 Poppy seeds
 Pumpkin seeds
 Sesame seeds
@@ -65,11 +66,11 @@ Coconut milk
 Hemp milk
 Lactose free milk
 Oat milk (30ml max)
-Soya milk made with soy protein
+Soya milk //made with soy protein
 Butter
 Dark chocolate
-Milk chocolate (3 squares max)
-White chocolate (3 squares max)
+Milk chocolate //(3 squares max)
+White chocolate //(3 squares max)
 Brie
 Camembert
 Cheddar
@@ -79,10 +80,11 @@ Mozzarella
 Parmesan
 Swiss
 Barbeque sauce
-Chutney (1 tbsp max)
+Chutney //(1 tbsp max)
 Garlic infused oil
 Golden syrup
-Strawberry jam / jelly
+Strawberry jam
+Strawberry jelly
 Mayonnaise
 Mustard
 Soy sauce
@@ -93,12 +95,13 @@ Glucose
 Saccharine
 Stevia
 Sucralose
-Sugar / sucrose
-Beer (one max)
+Sugar
+Sucrose
+Beer //(one max)
 Coffee, black
 Drinking chocolate powder
-Herbal tea (weak)
-Orange juice (125ml max)
+Herbal tea //(weak)
+Orange juice //(125ml max)
 Peppermint tea
 Water
-Wine (one max)
+Wine //(one max)
