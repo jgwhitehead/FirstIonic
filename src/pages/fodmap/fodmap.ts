@@ -8,16 +8,21 @@ import { NavController, NavParams } from 'ionic-angular';
   selector: 'page-fodmap',
   templateUrl: 'fodmap.html'
 })
+
+
 export class FodmapPage {
   // icons: string[];
   // items: Array<{title: string, note: string, icon: string}>;
-  badfodMap: string[];
+  badFodMap: string[];
+  goodFodMap:string[];
   checkedResult: boolean;
   showResult: boolean;
+  fodmapResult: Tristate;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
-    this.badfodMap = ["Garlic",
-    "Onions",
+
+    this.badFodMap = ["Garlic",
+    "Onion",
     "Aparagus",
     "Beans",
     "black"," broad", "kidney", "lima", "soya",
@@ -91,6 +96,10 @@ export class FodmapPage {
     "Fennel tea",
     "Herbal tea"]
 
+    this.goodFodMap = [
+      "good"
+    ]
+
     // this.icons = ['flask', 'wifi', 'beer', 'football', 'basketball', 'paper-plane',
     // 'american-football', 'boat', 'bluetooth', 'build'];
 
@@ -111,16 +120,34 @@ export class FodmapPage {
   // }
 }
 checkBadFodmap(food){
-  // this.checkedResult =  this.badfodMap.indexOf(food)!==-1;
-  var index = this.badfodMap.findIndex(item => food.toLowerCase() === item.toLowerCase());
-    this.checkedResult = (index  === -1);
+  // this.checkedResult =  this.badFodMap.indexOf(food)!==-1;
+  var badIndex = this.badFodMap.findIndex(item => food.toLowerCase() === item.toLowerCase());
+    this.checkedResult = (badIndex  === -1);
+    if(this.checkedResult){
+
+      // this.fodmapResult = Tristate.False;
+    // }else{
+    //   var goodIndex = this.goodFodMap.findIndex(item => food.toLowerCase() === item.toLowerCase());
+    //   if(goodIndex){
+    //       this.fodmapResult = Tristate.True;
+    //   }else{
+    //       this.fodmapResult = Tristate.Unknown;
+    //   }
+    }
+
     this.showResult=true;
 }
-isBadFodmap(food){
-  return this.badfodMap.indexOf(food)!==-1;
+isbadFodMap(food){
+  return this.badFodMap.indexOf(food)!==-1;
 }
 
 resetCheck(){
   this.showResult=false;
 }
 }
+
+export enum Tristate {
+    False,
+    True,
+    Unknown
+  }
